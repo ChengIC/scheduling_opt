@@ -65,7 +65,7 @@ def print_rcmpsp_data (data):
     print ('Portfolio information: ')
     print ('Number of projects: ', data['num_projects'])
     print ('Number of renewable resources', data['num_resources'])
-    print ('Availability for each renewable resource')
+    print ('Availability for each renewable resource', data['resource_availability'])
     print ('................................')
     
     for i in range(len(data['projects'])):
